@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bridge</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="bridge.css">
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="nav">
+
+				<a href="#"><img class="arq" src="img/arq.png" alt="ARQ"></a>
+				<div></div>
+				<div class="menu menu1"><a href="#">Главная</a></div>
+				<div class="menu"><a href="#">Галлерея</a></div>
+				<div class="menu"><a href="#">Блог</a></div>
+				<div class="menu"><a href="#">Контакты</a></div>
+				<input type="text" name="search" class="search" placeholder="Search">
+				<div class="social">
+					<a href="#"><img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yODgsMTc2di02NGMwLTE3LjY2NCwxNC4zMzYtMzIsMzItMzJoMzJWMGgtNjRjLTUzLjAyNCwwLTk2LDQyLjk3Ni05Niw5NnY4MGgtNjR2ODBoNjR2MjU2aDk2VjI1Nmg2NGwzMi04MEgyODh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBzdHlsZT0iZmlsbDojRkZGRkZGIj48L3BhdGg+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPg==" /></a>
+
+					<a href="#"><img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxnPgoJCTxwYXRoIGQ9Ik01MTIsOTcuMjQ4Yy0xOS4wNCw4LjM1Mi0zOS4zMjgsMTMuODg4LTYwLjQ4LDE2LjU3NmMyMS43Ni0xMi45OTIsMzguMzY4LTMzLjQwOCw0Ni4xNzYtNTguMDE2ICAgIGMtMjAuMjg4LDEyLjA5Ni00Mi42ODgsMjAuNjQtNjYuNTYsMjUuNDA4QzQxMS44NzIsNjAuNzA0LDM4NC40MTYsNDgsMzU0LjQ2NCw0OGMtNTguMTEyLDAtMTA0Ljg5Niw0Ny4xNjgtMTA0Ljg5NiwxMDQuOTkyICAgIGMwLDguMzIsMC43MDQsMTYuMzIsMi40MzIsMjMuOTM2Yy04Ny4yNjQtNC4yNTYtMTY0LjQ4LTQ2LjA4LTIxNi4zNTItMTA5Ljc5MmMtOS4wNTYsMTUuNzEyLTE0LjM2OCwzMy42OTYtMTQuMzY4LDUzLjA1NiAgICBjMCwzNi4zNTIsMTguNzIsNjguNTc2LDQ2LjYyNCw4Ny4yMzJjLTE2Ljg2NC0wLjMyLTMzLjQwOC01LjIxNi00Ny40MjQtMTIuOTI4YzAsMC4zMiwwLDAuNzM2LDAsMS4xNTIgICAgYzAsNTEuMDA4LDM2LjM4NCw5My4zNzYsODQuMDk2LDEwMy4xMzZjLTguNTQ0LDIuMzM2LTE3Ljg1NiwzLjQ1Ni0yNy41MiwzLjQ1NmMtNi43MiwwLTEzLjUwNC0wLjM4NC0xOS44NzItMS43OTIgICAgYzEzLjYsNDEuNTY4LDUyLjE5Miw3Mi4xMjgsOTguMDgsNzMuMTJjLTM1LjcxMiwyNy45MzYtODEuMDU2LDQ0Ljc2OC0xMzAuMTQ0LDQ0Ljc2OGMtOC42MDgsMC0xNi44NjQtMC4zODQtMjUuMTItMS40NCAgICBDNDYuNDk2LDQ0Ni44OCwxMDEuNiw0NjQsMTYxLjAyNCw0NjRjMTkzLjE1MiwwLDI5OC43NTItMTYwLDI5OC43NTItMjk4LjY4OGMwLTQuNjQtMC4xNi05LjEyLTAuMzg0LTEzLjU2OCAgICBDNDgwLjIyNCwxMzYuOTYsNDk3LjcyOCwxMTguNDk2LDUxMiw5Ny4yNDh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBzdHlsZT0iZmlsbDojRkZGRkZGIj48L3BhdGg+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPg==" /></a>
+
+					<a href="#"><img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00OTAuMjQsMTEzLjkyYy0xMy44ODgtMjQuNzA0LTI4Ljk2LTI5LjI0OC01OS42NDgtMzAuOTc2QzM5OS45MzYsODAuODY0LDMyMi44NDgsODAsMjU2LjA2NCw4MCAgICBjLTY2LjkxMiwwLTE0NC4wMzIsMC44NjQtMTc0LjY1NiwyLjkxMmMtMzAuNjI0LDEuNzYtNDUuNzI4LDYuMjcyLTU5Ljc0NCwzMS4wMDhDNy4zNiwxMzguNTkyLDAsMTgxLjA4OCwwLDI1NS45MDQgICAgQzAsMjU1Ljk2OCwwLDI1NiwwLDI1NmMwLDAuMDY0LDAsMC4wOTYsMCwwLjA5NnYwLjA2NGMwLDc0LjQ5Niw3LjM2LDExNy4zMTIsMjEuNjY0LDE0MS43MjggICAgYzE0LjAxNiwyNC43MDQsMjkuMDg4LDI5LjE4NCw1OS43MTIsMzEuMjY0QzExMi4wMzIsNDMwLjk0NCwxODkuMTUyLDQzMiwyNTYuMDY0LDQzMmM2Ni43ODQsMCwxNDMuODcyLTEuMDU2LDE3NC41Ni0yLjgxNiAgICBjMzAuNjg4LTIuMDgsNDUuNzYtNi41Niw1OS42NDgtMzEuMjY0QzUwNC43MDQsMzczLjUwNCw1MTIsMzMwLjY4OCw1MTIsMjU2LjE5MmMwLDAsMC0wLjA5NiwwLTAuMTZjMCwwLDAtMC4wNjQsMC0wLjA5NiAgICBDNTEyLDE4MS4wODgsNTA0LjcwNCwxMzguNTkyLDQ5MC4yNCwxMTMuOTJ6IE0xOTIsMzUyVjE2MGwxNjAsOTZMMTkyLDM1MnoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIHN0eWxlPSJmaWxsOiNGRkZGRkYiPjwvcGF0aD4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+" /></a>
+				</div>	
+		</div>
+		
+		<div class="content"></div>
+		<div class="b_text1">
+			<div></div>
+			<h1>Lorem ipsum dolor sit amet.</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quia placeat cupiditate, unde voluptate excepturi eligendi sapiente, dolorum perspiciatis, ab nisi ad est nemo voluptatibus officiis doloribus cumque dolor porro.</p>
+			<a href="#"><img src="img/play.png" alt="play" width="50" height="50"><span>Watch video</span></a>
+			<div></div>
+		</div>
+		<div class="footer">
+			<a href="#" class="footer_l"><img class="footer_img" src="img/butf1.png" alt=""></a>
+			<p class="footer_lp">Previous</p>
+			<p class="footer_mid"><img src="img/point_g.png" alt="grey_point"><img src="img/point_w.png" alt="white_point"><img src="img/point_g.png" alt="grey_point"><img src="img/point_g.png" alt="grey_point"><img src="img/point_g.png" alt="grey_point"></p>
+			<p class="footer_rp">Next</p>
+			<a href="#" class="footer_r"> <img class="footer_img" src="img/butf2.png" alt=""></a>
+		</div>
+
+	</div>
+</body>
+</html>

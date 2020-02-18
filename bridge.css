@@ -1,0 +1,152 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	padding-bottom: 90px;
+}
+
+
+body {
+	background: url(img/b.jpg) fixed ;
+	background-size:  100% ;
+	font-family: 'Noto Sans', sans-serif;
+	color: #ffffff;
+}
+
+.button {
+  background-color: 	grey;
+  
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+
+.nav {
+	padding-top: 16px;
+	padding-bottom: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+	display: grid;
+	grid-template-columns: 100px 100px repeat(4,100px) 3fr 1fr;
+	grid-template-rows: 50px;
+}
+.arq {
+	margin-left: 20px;
+	height: 25px;
+	width: 60px;
+}
+
+.nav img {
+	padding-top: 16px;
+	height: 25px;
+	width: 60px;
+}
+
+.menu {
+	padding-top: 19px;	
+  	text-decoration: none;
+}
+
+.menu a {
+  	text-decoration: none;
+  	color: white;
+}
+
+
+.menu1 a { padding-bottom: 1.7em;
+	background: linear-gradient(white,white) bottom center no-repeat;
+	background-size: 100% 2px; 
+	} 
+.search {
+	text-align: center;
+}
+
+input[type="text"] {
+   border-radius: 13px;
+   border: none;
+   background: rgba(0,0,0,0.25) !important; 
+   outline: none;
+   padding: 13px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+.social {
+	text-align: right;
+}
+
+.b_text1 {
+	margin-left: 200px;
+	display: grid;
+	grid-template-columns: 550px;
+	grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+}
+.b_text1 a {
+	padding-top: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.b_text1  span{
+	z-index: -40px;
+}
+
+.footer {
+	
+	background: url(img/footer.png);
+	display: grid;
+	grid-template-columns: 90px 1fr 4fr 1fr 90px;
+	grid-template-rows: 50px;
+
+	padding-top: 30px;
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+
+.footer_img{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.footer_lp {
+	padding-top: 13px;
+	text-align: left;
+	text-decoration: none;
+}
+
+
+
+.footer_rp {
+	padding-top: 13px;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+.footer_mid {
+	text-align: center;
+	padding-top: 13px;
+	text-decoration: none;
+}
+
