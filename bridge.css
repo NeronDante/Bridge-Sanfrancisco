@@ -149,4 +149,7 @@ input[type="text"] {
 	padding-top: 13px;
 	text-decoration: none;
 }
+.set {
+	margin: 0;
+}
 
